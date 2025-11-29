@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { supabase } from '../../../client/supabaseClient';
+import { supabase } from '../../supabaseClient';
 
 // --- TIPOS (Mantidos iguais) ---
 
