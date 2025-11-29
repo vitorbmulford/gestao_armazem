@@ -11,7 +11,6 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import { AppProvider } from "./contexts/AppContext";
 import Home from "./pages/Home";
 import { Login } from "./components/login";
-import React from 'react';
 
 // ---------------------- ROUTER ----------------------
 function Router() {

@@ -1,6 +1,5 @@
 import { Card } from '../components/ui/card';
 import { Lightbulb, TrendingUp, DollarSign, ShoppingCart, Calendar, Scale, Leaf } from 'lucide-react';
-import React from 'react';
 
 export default function TipsView() {
   const tips = [

@@ -5,11 +5,10 @@ import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
 import { Plus, Trash2, Save, Edit3, X, ChevronDown, ChevronUp } from 'lucide-react';
-import { Recipe, RecipeComponent } from '../contexts/AppContext';
-import React from 'react';
+import { Recipe} from '../contexts/AppContext';
 
 export default function RecipesView() {
-  const { recipes, ingredients, garnishTemplates, addOrUpdateRecipe, deleteRecipe, addOrUpdateGarnishTemplate, getRecipeCost, getRecipeCostBreakdown, calculateCMV, calculateMarkup, calculateContributionMargin, calculateNetPrice } = useApp();
+  const { recipes, ingredients, garnishTemplates, addOrUpdateRecipe, deleteRecipe, addOrUpdateGarnishTemplate, getRecipeCostBreakdown, calculateCMV, calculateMarkup, calculateContributionMargin, calculateNetPrice } = useApp();
   
   const [editing, setEditing] = useState<number | null>(null);
   const [form, setForm] = useState<Partial<Recipe>>({

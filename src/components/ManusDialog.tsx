@@ -9,7 +9,6 @@ import {
   DialogFooter,
   DialogTitle,
 } from "../components/ui/dialog";
-import React from "react";
 
 interface ManusDialogProps {
   title?: string;

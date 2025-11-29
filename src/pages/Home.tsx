@@ -9,7 +9,6 @@ import TipsView from './Tips';
 import SettingsView from './Settings';
 import Analytics from './Analytics';
 import GarnishTemplates from './GarnishTemplates';
-import React from 'react';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('dashboard');

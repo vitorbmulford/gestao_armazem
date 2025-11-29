@@ -6,7 +6,6 @@ import { Calendar, Download, Printer, Edit3, PieChart } from 'lucide-react';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
 import { Input } from '../components/ui/input';
 import { PrintableMenu } from '../components/PrintableMenu';
-import React from 'react';
 
 export default function DashboardView() {
   const {

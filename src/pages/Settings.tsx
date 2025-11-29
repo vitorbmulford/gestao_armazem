@@ -7,7 +7,6 @@ import { Settings as SettingsIcon, DollarSign, TrendingUp, Calendar, Plus, Trash
 import { toast } from 'sonner';
 import { supabase } from '../../supabaseClient';
 import { initialIngredients, initialRecipes, initialWeeks } from '../data/initialData';
-import { Loader2, Database } from 'lucide-react';
 import React from 'react';
 
 export default function SettingsView() {

@@ -570,7 +570,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     return JSON.stringify(data, null, 2);
   };
 
-  const importData = (jsonData: string) => {
+  const importData = () => {
     // Implementar importação para o banco se necessário, ou manter apenas local
     console.log("Importação massiva deve ser implementada com cuidado no banco");
   };

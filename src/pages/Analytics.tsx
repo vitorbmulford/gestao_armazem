@@ -3,7 +3,6 @@ import { useApp } from '../contexts/AppContext';
 import { Card } from '../components/ui/card';
 import { BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { TrendingUp, DollarSign, Award, PieChart as PieChartIcon } from 'lucide-react';
-import React from 'react';
 
 export default function AnalyticsView() {
   const {
@@ -12,7 +11,6 @@ export default function AnalyticsView() {
     ingredients,
     getRecipeCost,
     sellingPrice,
-    salesMix,
     calculateCMV,
     calculateMarkup,
     calculateNetPrice,
