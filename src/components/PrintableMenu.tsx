@@ -1,6 +1,6 @@
 import React from 'react';
-import { Week, Recipe } from '@/contexts/AppContext';
-import { APP_TITLE } from '@/const';
+import { Week, Recipe } from '../contexts/AppContext';
+import { APP_TITLE } from '../const';
 
 interface PrintableMenuProps {
   week: Week;

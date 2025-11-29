@@ -1,6 +1,6 @@
 // export const initialIngredients = [];
 
-import { Ingredient, Recipe, Week } from "@/contexts/AppContext";
+import { Ingredient, Recipe, Week } from "../contexts/AppContext";
 
 export const initialIngredients: Ingredient[] = [
   // CEREAIS E GRÃOS

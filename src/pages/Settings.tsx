@@ -1,13 +1,14 @@
 import { useState } from 'react';
-import { useApp } from '@/contexts/AppContext';
-import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
+import { useApp } from '../contexts/AppContext';
+import { Card } from '../components/ui/card';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
 import { Settings as SettingsIcon, DollarSign, TrendingUp, Calendar, Plus, Trash2, Download, Upload, AlertCircle } from 'lucide-react';
 import { toast } from 'sonner';
 import { supabase } from '../../supabaseClient';
-import { initialIngredients, initialRecipes, initialWeeks } from '@/data/initialData';
+import { initialIngredients, initialRecipes, initialWeeks } from '../data/initialData';
 import { Loader2, Database } from 'lucide-react';
+import React from 'react';
 
 export default function SettingsView() {
   const {

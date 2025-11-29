@@ -1,10 +1,11 @@
 import { useState, useMemo } from 'react';
-import { useApp } from '@/contexts/AppContext';
-import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Checkbox } from '@/components/ui/checkbox';
+import { useApp } from '../contexts/AppContext';
+import { Card } from '../components/ui/card';
+import { Button } from '../components/ui/button';
+import { Checkbox } from '../components/ui/checkbox';
 import { ShoppingCart, Download, Printer } from 'lucide-react';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
+import React from 'react';
 
 interface ShoppingItem {
   ingredientId: string;

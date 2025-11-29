@@ -1,5 +1,6 @@
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 import { AlertTriangle, RotateCcw } from "lucide-react";
+import React from "react";
 import { Component, ReactNode } from "react";
 
 interface Props {

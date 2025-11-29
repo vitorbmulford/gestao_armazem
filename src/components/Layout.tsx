@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { ChefHat, Calendar, BookOpen, Package, ShoppingCart, ClipboardList, Lightbulb, Settings, TrendingUp } from 'lucide-react';
-import { APP_TITLE } from '@/const';
+import { APP_TITLE } from '../const';
 
 interface LayoutProps {
   children: ReactNode;

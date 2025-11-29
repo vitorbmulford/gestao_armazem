@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import { useApp } from '@/contexts/AppContext';
-import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import { useApp } from '../contexts/AppContext';
+import { Card } from '../components/ui/card';
+import { Button } from '../components/ui/button';
 import { Calendar, Download, Printer, Edit3, PieChart } from 'lucide-react';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Input } from '@/components/ui/input';
-import { PrintableMenu } from '@/components/PrintableMenu';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
+import { Input } from '../components/ui/input';
+import { PrintableMenu } from '../components/PrintableMenu';
+import React from 'react';
 
 export default function DashboardView() {
   const {

@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import { useApp } from '@/contexts/AppContext';
-import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { useApp } from '../contexts/AppContext';
+import { Card } from '../components/ui/card';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
 import { Plus, Trash2, Save, Edit3, X, Package } from 'lucide-react';
-import { GarnishTemplate, RecipeComponent } from '@/contexts/AppContext';
+import { GarnishTemplate, RecipeComponent } from '../contexts/AppContext';
+import React from 'react';
 
 export default function GarnishTemplatesView() {
   const { garnishTemplates, ingredients, recipes, addOrUpdateGarnishTemplate, deleteGarnishTemplate } = useApp();

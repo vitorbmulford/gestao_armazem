@@ -173,7 +173,7 @@ export const useApp = () => {
 };
 
 // Dados padrão caso o banco esteja vazio
-import { initialIngredients, initialRecipes, initialWeeks } from '@/data/initialData';
+import { initialIngredients, initialRecipes, initialWeeks } from '../data/initialData';
 
 export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [loading, setLoading] = useState(true);

@@ -2,15 +2,16 @@ import { useState, useEffect } from "react";
 import { supabase } from "../supabaseClient";
 import { Session } from "@supabase/supabase-js";
 
-import { Toaster } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import NotFound from "@/pages/NotFound";
+import { Toaster } from "sonner";
+import { TooltipProvider } from "../../gestao-cozinha/src/components/ui/tooltip";
+import NotFound from "../../gestao-cozinha/src/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { AppProvider } from "./contexts/AppContext";
 import Home from "./pages/Home";
 import { Login } from "./components/login";
+import React from 'react';
 
 // ---------------------- ROUTER ----------------------
 function Router() {
