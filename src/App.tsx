@@ -3,8 +3,8 @@ import { supabase } from "../supabaseClient";
 import { Session } from "@supabase/supabase-js";
 
 import { Toaster } from "sonner";
-import { TooltipProvider } from "../../gestao-cozinha/src/components/ui/tooltip";
-import NotFound from "../../gestao-cozinha/src/pages/NotFound";
+import { TooltipProvider } from "../src/components/ui/tooltip";
+import NotFound from "../src/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
